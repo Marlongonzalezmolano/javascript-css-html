@@ -1,0 +1,20 @@
+div#respuesta{
+    display:none;
+    }
+    .caja{
+        width: 500px;
+        height: 100px;
+        position:sticky;
+        top: 30px;
+        left: 400px;
+        text-align: center;
+        }
+body{
+    justify-content: center;
+    align-items: center;
+    height: center;
+    position:unset;
+}
+
+
+

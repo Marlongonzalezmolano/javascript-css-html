@@ -1,0 +1,95 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background-color: #323232;
+    font-family: Helvetica Neue, Helvetica;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #ffffff;
+    text-transform: lowercase;
+}
+
+h2 {
+    color: #ffb900;
+}
+
+.swiper {
+    width: 100%;
+    padding: 150px 0 50px 0;
+}
+
+.swiper-slide {
+    width: 300px;
+    height: 500px;
+    background-color: #323232;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.icons i {
+    font-size: 20px;
+    color: #ffb900;
+}
+
+.product-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-txt {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.product-txt span {
+    font-size: 25px;
+    color: #ffb900;
+    font-weight: bold;
+}
+
+.product-txt h3 {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.product-txt p {
+    font-size: 20px;
+    color: #c4c4c4;
+}
+
+.product-img img {
+    width: 120px;
+}
+
+.btn-1, .btn-minus, .btn-plus {
+    padding: 10px;
+    background-color: #ffb900;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-minus, .btn-plus {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    margin: 5px;
+}
